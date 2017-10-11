@@ -5,9 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>J Query Practice</title>
     <link rel="stylesheet" href="/screen.css">
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script> -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </head>
   <body>
-    <h1>Hello, World!</h1>
+  <div class='catRandom'>
+    <h1>Random Cat Photos</h1>
+    <img id='catRandomImage' src='http://random.cat/i/8M3AW.jpg'>
+    <button id='btn'>Click for Cats</button>
+  </div>
+  <h1>Ron Swanson Quote Generator</h1>
+  <p>(4 ways of writing AJAX requests)</p>
+  <section class='container'>
+    <button id='xhr'>XHR</button>
+    <button id='fetch'>Fetch</button>
+    <button id='jquery'>jQuery</button>
+    <button id='axios'>Axios</button>
+  </section>
+  <p id='quote'>Quote Goes Here</p>
     <script src="/main.js" charset="utf-8"></script>
   </body>
 </html>
